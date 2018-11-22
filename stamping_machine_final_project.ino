@@ -8,10 +8,10 @@ int pos = 0;
 int conv[] = {2,3,4,5};
 
 void runconv() {
-  analogWrite(conv[0],150);
-  analogWrite(conv[1],0);
-  analogWrite(conv[2], 150);
-  analogWrite(conv[3], 0);
+  digitalWrite(conv[0],HIGH);
+  digitalWrite(conv[1],LOw);
+  digitalWrite(conv[2], HIGH);
+  digitalWrite(conv[3], LOW);
 }
 
 void stopconv() {
